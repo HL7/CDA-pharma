@@ -293,7 +293,7 @@ StaticMifToXsd.xsl version 2.0</xs:documentation>
 			<xs:group ref="hl7v3:InfrastructureRootElements"/>
 			<xs:element name="id" type="hl7v3:II" minOccurs="0" maxOccurs="1"/>
 			<xs:element name="quantity" type="hl7v3:PQ" minOccurs="0" maxOccurs="1"/>
-			<!-- demoted to PQ as agreed for the Pharmacy Template -->
+			<!-- demoted to PQ as agreed for the Pharmacy Template --> 
 			<!-- <xs:element name="quantity" type="hl7v3:RTO" minOccurs="0" maxOccurs="1"/> -->
 			<xs:element name="partProduct" type="pharm:COCT_MT230100UV01.Product" minOccurs="1" maxOccurs="1"/>
 			<xs:element name="subjectOf" type="pharm:COCT_MT230100UV01.Subject6" nillable="true" minOccurs="0" maxOccurs="unbounded"/>
