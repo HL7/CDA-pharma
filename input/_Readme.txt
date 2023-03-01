@@ -1,17 +1,17 @@
-Publication title:                               HL7 CDA  R2 IG: C-CDA Templates for Clinical Notes STU Companion Guide, Release 3 - US Realm
-Edition:                                         Release 3 STU 1
-Realm:                                           US Realm
+Publication title:                               HL7 CDA® R2 Implementation Guide: Pharmacy Templates, Edition 1
+Edition:                                         Edition 3 STU 2
+Realm:                                           UV Realm
 Release status:                                  Standard for Trial Use (STU)
-JIRA Specification key:                          cda-ccda-companion-guide
+JIRA Specification key:                          CDA-pharm
 Version:                                         
 Errata identifier:                               
-Publication date:                                May 13, 2022
-Prepared by:                                     Structured Documents Work Group, the Federal Electronic Health Record Modernization (FEHRM) Program Office, and the US Realm Program Management Office
+Publication date:                                April xx, 2023
+Prepared by:                                     Pharmacy Work Group
 
 
 Contents of the package:
 ========================
-This file:                                       readme.txt 
+This file:                                       _Readme.txt 
 
 --- STU ---
 HL7 CDA® R2 Implementation Guide: Pharmacy Templates, Edition 1:                     CDAR2_IG_PHARM_TEMPLATES_R1_D2_2023APR.pdf
