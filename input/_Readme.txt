@@ -1,9 +1,9 @@
 Publication title:                               HL7 CDA® R2 Implementation Guide: Pharmacy Templates, Edition 1
-Edition:                                         Edition 3 STU 2
+Edition:                                         Edition 1 STU 2
 Realm:                                           UV Realm
 Release status:                                  Standard for Trial Use (STU)
 JIRA Specification key:                          CDA-pharm
-Version:                                         
+Version:                                         1.2.0
 Errata identifier:                               
 Publication date:                                April xx, 2023
 Prepared by:                                     Pharmacy Work Group
@@ -14,7 +14,7 @@ Contents of the package:
 This file:                                       _Readme.txt 
 
 --- STU ---
-HL7 CDA® R2 Implementation Guide: Pharmacy Templates, Edition 1:                     CDAR2_IG_PHARM_TEMPLATES_R1_D2_2023APR.pdf
+HL7 CDA® R2 Implementation Guide: Pharmacy Templates, Edition 1:                     CDAR2_IG_PHARM_TEMPLATES_R1_STU2_2023APR.pdf
 
 
 --- Sample files ---
