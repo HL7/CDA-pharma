@@ -1,0 +1,388 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- PART NOT REVISED YET begin -->
+<ClinicalDocument xmlns="urn:hl7-org:v3" xmlns:pharm="urn:hl7-org:pharm" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" classCode="DOCCLIN" moodCode="EVN">
+	<typeId extension="POCD_HD000040" root="2.16.840.1.113883.1.3"/>
+	<id extension="3000" root="2.16.17.710.850.1000.990.1"/>
+	<code code="57833-6" codeSystem="2.16.840.1.113883.6.1" displayName="Prescription for medication"/>
+	<title>ePrescription (eHDSI/Finland)</title>
+	<effectiveTime value="20220706143500+0200"/>
+	<confidentialityCode code="N" displayName="normal" codeSystem="2.16.840.1.113883.5.25"/>
+	<languageCode code="en-USI"/>
+	<setId root="1.2.246.10.11535721.93.2009.15721892033029812"/>
+	<recordTarget contextControlCode="OP" typeCode="RCT">
+		<patientRole classCode="PAT">
+			<id extension="1-3456-W6" root="2.16.17.710.850.1000.990.1.1000"/>
+			<addr>
+				<country>FI</country>
+			</addr>
+			<telecom nullFlavor="NI"/>
+			<patient classCode="PSN" determinerCode="INSTANCE">
+				<name>
+					<given qualifier="CL">Katriina</given>
+					<given>Kastehelmi</given>
+					<family>Kukko</family>
+				</name>
+				<administrativeGenderCode code="F" displayName="Female" codeSystem="2.16.840.1.113883.5.1"/>
+				<birthTime value="20000101"/>
+				<languageCommunication nullFlavor="NI"/>
+			</patient>
+		</patientRole>
+	</recordTarget>
+	<author>
+		<functionCode code="221" displayName="Medical doctors" codeSystem="2.16.840.1.113883.2.9.6.2.7" codeSystemName="ISCO"/>
+		<time value="20220706162454+0200"/>
+		<assignedAuthor classCode="ASSIGNED">
+			<id extension="031807" root="1.2.246.537.25"/>
+			<id extension="03498700164" root="1.2.246.537.26"/>
+			<addr nullFlavor="NI"/>
+			<telecom nullFlavor="UNK"/>
+			<assignedPerson classCode="PSN" determinerCode="INSTANCE">
+				<name>
+					<given>Vilhelmiina</given>
+					<given>Adelmiina</given>
+					<family>Heinänenä</family>
+				</name>
+			</assignedPerson>
+			<representedOrganization classCode="ORG" determinerCode="INSTANCE">
+				<id root="1.2.246.10.10694480.10.1"/>
+				<name>Vesanto</name>
+				<telecom use="WP" value="tel:+35850123123123123"/>
+				<addr>
+					<streetAddressLine>Hatanpäänvaltatie 1</streetAddressLine>
+					<postalCode>12340</postalCode>
+					<city>Testikaupunki</city>
+					<state nullFlavor="UNK"/>
+					<country>FI</country>
+				</addr>
+			</representedOrganization>
+		</assignedAuthor>
+	</author>
+	<custodian>
+		<assignedCustodian>
+			<representedCustodianOrganization>
+				<id root="1.2.246.10.2462460.19.1"/>
+				<name>Kansaneläkelaitos</name>
+				<telecom nullFlavor="NI"/>
+				<addr>
+					<postBox>PL 450</postBox>
+					<postalCode>00101</postalCode>
+					<city>Helsinki</city>
+					<state nullFlavor="UNK"/>
+					<country>FI</country>
+				</addr>
+			</representedCustodianOrganization>
+		</assignedCustodian>
+	</custodian>
+	<legalAuthenticator contextControlCode="OP" typeCode="LA">
+		<time value="20220706162454+0200"/>
+		<signatureCode code="S"/>
+		<assignedEntity classCode="ASSIGNED">
+			<id root="1.2.246.10.2462460.19.1"/>
+			<addr nullFlavor="NI"/>
+			<telecom nullFlavor="NI"/>
+			<assignedPerson nullFlavor="NI"/>
+			<representedOrganization classCode="ORG" determinerCode="INSTANCE">
+				<id root="1.2.246.10.2462460.19.1"/>
+				<name>Kansaneläkelaitos</name>
+				<telecom nullFlavor="NI"/>
+				<addr use="PST">
+					<postBox>P.O.B. 450</postBox>
+					<city>Helsinki</city>
+					<postalCode>00101</postalCode>
+					<state nullFlavor="UNK"/>
+					<country>FI</country>
+				</addr>
+			</representedOrganization>
+		</assignedEntity>
+	</legalAuthenticator>
+	<relatedDocument typeCode="XFRM">
+		<parentDocument>
+			<id root="1.2.246.10.11535721.93.2009.15721892033029812"/>
+		</parentDocument>
+	</relatedDocument>
+	<component>
+		<structuredBody>
+			<component>
+				<section>
+					<id extension="3000.1" root="2.16.17.710.850.1000.990.1"/>
+					<code code="57828-6" displayName="Prescriptions" codeSystem="2.16.840.1.113883.6.1"/>
+					<title>Prescriptions</title>
+					<text ID="eP_as_text">
+						<table>
+							<tr>
+								<td id="mytable2">
+									<table>
+										<tr>
+											<td>
+												<table class="ep_table">
+													<tr>
+														<th>
+                                          
+                                          
+                                          Medicinal Product Identifier
+                                          </th>
+														<td>FI-100004966-18300</td>
+													</tr>									
+													<tr>
+														<th>Active Ingredient</th>
+														<td>
+															<table class="ingredients_table" width="100%">
+																<colgroup>
+																	<col span="1" style="width: 15%;"/>
+																	<col span="1" style="width: 15%;"/>
+																	<col span="1" style="width: 10%;"/>
+																	<col span="1" style="width: 25%;"/>
+																	<col span="1" style="width: 35%;"/>
+																</colgroup>
+																<tbody>
+																	<tr>
+																		<th/>
+																		<th>Code System</th>
+																		<th>Code</th>
+																		<th>Name</th>
+																		<th>Strength</th>
+																	</tr>
+																	<tr>
+																		<th>part 1</th>
+																		<td>SMS</td>
+																		<td>100000092074</td>
+																		<td>clotrimazole</td>
+																		<td>20 milligram 
+                                                      /
+                                                       1 gram</td>
+																	</tr>
+																	<tr>
+																		<th>part 2</th>
+																		<td>SMS</td>
+																		<td>100000092074</td>
+																		<td>clotrimazole</td>
+																		<td>500 milligram per unit</td>
+																	</tr>
+																</tbody>
+															</table>
+														</td>
+													</tr>
+													<tr>
+														<th>Brand Name</th>
+														<td>Canesten Cream</td>
+													</tr>
+													<tr>
+														<th>Dose Form</th>
+														<td>Cream + pessary</td>
+													</tr>
+													<tr>
+														<th>Route of Administration</th>
+														<td>Subcutaneous use</td>
+													</tr>
+												</table>
+											</td>
+											<td>
+												<table class="ep_table">
+													<tr>
+														<th>Duration of treatment</th>
+														<td>From 2022-07-06 Until 2022-08-06</td>
+													</tr>
+													<tr>
+														<th>Units per intake</th>
+														<td>1 unit(s)</td>
+													</tr>
+													<tr>
+														<th>Frequency of Intakes</th>
+														<td>1 Time(s) per 12 hour</td>
+													</tr>
+												</table>
+											</td>
+										</tr>
+										<tr>
+											<td>
+												<table class="ep_table">
+													<tbody>
+														<tr>
+															<th>
+                                             
+                                             
+                                             Package Identifier
+                                             </th>
+															<td>FI-100004966-18300-541276</td>
+														</tr>
+														<tr>
+															<th>Number of packages</th>
+															<td>5</td>
+														</tr>
+														<tr>
+															<th>Package Size</th>
+															<td>
+																<ul>
+																	<ul>
+																		<li>Box
+                                                      <ul>
+																				<li>1 unit(s) Cream + pessary</li>
+																			</ul>
+																		</li>
+																	</ul>
+																</ul>
+															</td>
+														</tr>
+														<tr>
+															<th>
+																<center>Part 1</center>
+															</th>
+															<td>
+																<ul>
+																	<li>1 unit(s) Tube
+                                                   <ul>
+																			<li>20 gram Cream</li>
+																		</ul>
+																	</li>
+																</ul>
+															</td>
+														</tr>
+														<tr>
+															<th>
+																<center>Part 2</center>
+															</th>
+															<td>
+																<ul>
+																	<ul>
+																		<li>6 unit(s) Pessary</li>
+																	</ul>
+																</ul>
+															</td>
+														</tr>
+													</tbody>
+												</table>
+											</td>
+										</tr>
+									</table>
+								</td>
+							</tr>
+						</table>
+					</text>
+					<entry typeCode="COMP">
+						<substanceAdministration classCode="SBADM" moodCode="INT">
+							<templateId root="2.16.840.1.113883.10.21.4.1"/>
+							<id extension="3000.1.1" root="2.16.17.710.850.1000.990.1"/>
+							<statusCode code="active"/>
+							<effectiveTime xsi:type="IVL_TS">
+								<low value="20220706"/>
+								<high value="20220806"/>
+							</effectiveTime>
+							<routeCode code="20066000" displayName="Subcutaneous use" codeSystem="0.4.0.127.0.16.1.1.2.1"/>
+							<!-- PART NOT REVISED YET end -->
+							<!-- REVISED 2023-03-28 begin -->
+							<consumable typeCode="CSM">
+								<manufacturedProduct classCode="MANU">
+									<templateId root="1.3.6.1.4.1.12559.11.10.1.3.1.3.29"/>
+									<manufacturedMaterial classCode="MMAT" determinerCode="KIND">
+										<templateId root="1.3.6.1.4.1.12559.11.10.1.3.1.3.30"/>
+										<!--Example OID for MPID for "system" : "http://ema.europa.eu/fhir/mpId", "value" : "FI-100004966-18300"-->
+										<code codeSystem="9.999.999.999" code="FI-100004966-18300"/>
+										<name>Canesten® Kombi 500 mg emätinpuikko + 10 mg/g emulsiovoide</name>
+										<!-- Combined dose form -->
+										<pharm:formCode code="14001000" displayName="Cream + pessary" codeSystem="0.4.0.127.0.16.1.1.2.1">
+											<!--Example OID" for  "system" : "https://spor.ema.europa.eu/v1/lists/200000000008",            "code" : "100000173972",-->
+											<!-- ask to assign an OID for SPOR systems-->
+											<translation code="100000173972" displayName="Cream + pessary" codeSystem="9.999.200000000008"/>
+										</pharm:formCode>
+										<pharm:asContent classCode="CONT">
+											<pharm:quantity xsi:type="PQ" value="1" unit="1"/>
+											<pharm:containerPackagedProduct classCode="CONT" determinerCode="KIND">
+												<!--    "system" : "http://ema.europa.eu/example/pcid",   "value" : "FI-100004966-18300-541276" -->
+												<!-- ask to assign an OID for MPID and or local codes -->
+												<pharm:code codeSystem="9.999.999.999.1" code="FI-100004966-18300-541276"/>
+												<!--              "system" : "https://spor.ema.europa.eu/v1/lists/100000073346",               "code" : "100000073498", -->
+												<!-- ask to assign an OID for SPOR systems-->
+												<pharm:formCode code="30009000" displayName="Box" codeSystem="0.4.0.127.0.16.1.1.2.1">
+													<translation code="100000073498" displayName="Box" codeSystem="9.999.100000073346"/>
+												</pharm:formCode>
+											</pharm:containerPackagedProduct>
+										</pharm:asContent>
+										<asSpecializedKind classCode="GRIC">
+											<generalizedMaterialKind classCode="MMAT">
+												<code codeSystem="2.16.840.1.113883.6.73" code="G01AF02" codeSystemName="Anatomical Therapeutic Chemical" displayName="clotrimazole"/>
+												<name/>
+											</generalizedMaterialKind>
+										</asSpecializedKind>
+										<pharm:part classCode="PART">
+											<pharm:quantity xsi:type="PQ" value="1" unit="1"/>
+											<pharm:partProduct classCode="MMAT" determinerCode="KIND">
+												<pharm:formCode code="10502000" displayName="Cream" codeSystem="0.4.0.127.0.16.1.1.2.1">
+													<!--Example OID" for  system" : "https://spor.ema.europa.eu/v1/lists/200000000004",              "code" : "100000073712",             "display" : "Cream"-->
+													<!-- ask to assign an OID for SPOR systems  "-->
+													<translation code="100000073712" displayName="Cream" codeSystem="9.999.200000000004"/>
+												</pharm:formCode>
+												<pharm:asContent classCode="CONT">
+													<pharm:quantity xsi:type="PQ" value="20" unit="g"/>
+													<!-- in the FHIR sample SPOR units are used 
+                                                    "amount" : {    "value" : 20,            "unit" : "gram(s)","system" : "https://spor.ema.europa.eu/v1/lists/100000110633",          "code" : "100000110654" -->
+													<pharm:containerPackagedProduct classCode="CONT" determinerCode="KIND">
+														<pharm:formCode code="30067000" displayName="Tube" codeSystem="0.4.0.127.0.16.1.1.2.1">
+															<!--Example OID" for  "system" : "https://spor.ema.europa.eu/v1/lists/100000073346",                "code" : "100000073561",            "display" : "Tube"-->
+															<!-- ask to assign an OID for SPOR systems  "-->
+															<translation code="100000073561" displayName="Tube" codeSystem="9.999.100000073346"/>
+														</pharm:formCode>
+													</pharm:containerPackagedProduct>
+												</pharm:asContent>
+												<pharm:ingredient classCode="ACTI">
+													<pharm:quantity>
+														<numerator xsi:type="PQ" value="10" unit="mg"/>
+														<denominator xsi:type="PQ" value="1" unit="g"/>
+													</pharm:quantity>
+													<pharm:ingredientSubstance classCode="MMAT" determinerCode="KIND">
+																<pharm:code code="100000092074" displayName="CLOTRIMAZOLE" codeSystem="1.3.6.1.4.1.12559.11.10.1.3.1.44.100000075825"/>
+														<pharm:name>CLOTRIMAZOLE</pharm:name>
+													</pharm:ingredientSubstance>
+												</pharm:ingredient>
+											</pharm:partProduct>
+										</pharm:part>
+										<pharm:part classCode="PART">
+											<pharm:quantity xsi:type="PQ" value="1" unit="1"/>
+											<pharm:partProduct classCode="MMAT" determinerCode="KIND">
+												<pharm:formCode code="10909000" displayName="Pessary" codeSystem="0.4.0.127.0.16.1.1.2.1">
+													<!--Example OID" for    "system" : "https://spor.ema.europa.eu/v1/lists/200000000004",              "code" : "100000073815",              "display" : "Pessary"-->
+													<translation code="100000073815" displayName="Pessary" codeSystem="9.999.200000000004"/>
+												</pharm:formCode>
+												<pharm:ingredient classCode="ACTI">
+													<pharm:quantity>
+														<numerator xsi:type="PQ" value="500" unit="mg"/>
+														<denominator xsi:type="PQ" value="1" unit="{Pessary}"/>
+													</pharm:quantity>
+													<pharm:ingredientSubstance classCode="MMAT" determinerCode="KIND">
+														<!--      for the time bein is used the OID assigned by EHDSI ask for official OID -->
+														<pharm:code code="100000092074" displayName="CLOTRIMAZOLE" codeSystem="1.3.6.1.4.1.12559.11.10.1.3.1.44.100000075825"/>
+														<pharm:name>CLOTRIMAZOLE</pharm:name>
+													</pharm:ingredientSubstance>
+												</pharm:ingredient>
+											</pharm:partProduct>
+										</pharm:part>
+									</manufacturedMaterial>
+								</manufacturedProduct>
+							</consumable>
+							<substanceAdministration classCode="SBADM" moodCode="EVN">
+								<templateId root="2.16.840.1.113883.10.21.4.6"/>
+								<statusCode code="active"/>
+								<effectiveTime xsi:type="PIVL_TS" institutionSpecified="true">
+									<period value="12" unit="h"/>
+								</effectiveTime>
+								<doseQuantity xsi:type="IVL_PQ" value="1" unit="1"/>
+								<consumable>
+									<manufacturedProduct>
+										<manufacturedMaterial nullFlavor="NA"/>
+									</manufacturedProduct>
+								</consumable>
+							</substanceAdministration>
+							<entryRelationship typeCode="COMP">
+								<!-- component: The Dispense Request is a component of the overall order. -->
+								<supply classCode="SPLY" moodCode="RQO">
+									<templateId root="2.16.840.1.113883.10.21.4.2"/>
+									<independentInd value="false"/>
+									<quantity unit="1" value="5"/>
+								</supply>
+							</entryRelationship>
+						</substanceAdministration>
+					</entry>
+				</section>
+			</component>
+		</structuredBody>
+	</component>
+</ClinicalDocument>
