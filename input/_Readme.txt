@@ -5,7 +5,7 @@ Release status:                                  Standard for Trial Use (STU)
 JIRA Specification key:                          CDA-pharm
 Version:                                         1.2.0
 Errata identifier:                               
-Publication date:                                April xx, 2023
+Publication date:                                April 2023
 Prepared by:                                     Pharmacy Work Group
 
 
@@ -14,7 +14,7 @@ Contents of the package:
 This file:                                       _Readme.txt 
 
 --- STU ---
-HL7 CDA® R2 Implementation Guide: Pharmacy Templates, Edition 1:                     CDAR2_IG_PHARM_TEMPLATES_R1_STU2_2023APR.pdf
+HL7 CDA® R2 Implementation Guide: Pharmacy Templates, Edition 1:                     CDAR2_IG_PHARM_TEMPLATES_E1_STU2_2023APR.pdf
 
 
 --- Sample files ---
@@ -25,7 +25,7 @@ Supporting examples may be stored in https://github.com/HL7/CDA-pharma/tree/main
 https://hl7.org/permalink/?CDAStyleSheet
 
 ---- Schema files ----
-https://github.com/HL7/CDA-pharma/validation/schema/CDA_Pharma.xsd
+https://github.com/HL7/CDA-pharma/tree/main/validation/schema
 
 ---- Schematron Validation files ----
 Schematron files may be stored at: https://github.com/HL7/CDA-pharma/validation
