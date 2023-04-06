@@ -28,4 +28,4 @@ https://hl7.org/permalink/?CDAStyleSheet
 https://github.com/HL7/CDA-pharma/tree/main/validation/schema
 
 ---- Schematron Validation files ----
-Schematron files may be stored at: https://github.com/HL7/CDA-pharma/validation
+https://github.com/HL7/CDA-pharma/tree/main/validation/schematron
