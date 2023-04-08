@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!-- PART NOT REVISED YET begin -->
-<ClinicalDocument xmlns="urn:hl7-org:v3" xmlns:pharm="urn:hl7-org:pharm" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" classCode="DOCCLIN" moodCode="EVN">
+<?xml-model href="pharmcda-medord.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<ClinicalDocument xmlns="urn:hl7-org:v3" xmlns:pharm="urn:hl7-org:pharm" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" classCode="DOCCLIN" moodCode="EVN" xsi:schemaLocation="urn:hl7-org:v3 ../validation/schema/CDA_Pharma.xsd">
 	<typeId extension="POCD_HD000040" root="2.16.840.1.113883.1.3"/>
 	<id extension="3000" root="2.16.17.710.850.1000.990.1"/>
 	<code code="57833-6" codeSystem="2.16.840.1.113883.6.1" displayName="Prescription for medication"/>
@@ -109,153 +109,103 @@
 					<title>Prescriptions</title>
 					<text ID="eP_as_text">
 						<table>
-							<tr>
-								<td id="mytable2">
-									<table>
-										<tr>
-											<td>
-												<table class="ep_table">
-													<tr>
-														<th>
-                                          
-                                          
-                                          Medicinal Product Identifier
-                                          </th>
-														<td>FI-100004966-18300</td>
-													</tr>									
-													<tr>
-														<th>Active Ingredient</th>
-														<td>
-															<table class="ingredients_table" width="100%">
-																<colgroup>
-																	<col span="1" style="width: 15%;"/>
-																	<col span="1" style="width: 15%;"/>
-																	<col span="1" style="width: 10%;"/>
-																	<col span="1" style="width: 25%;"/>
-																	<col span="1" style="width: 35%;"/>
-																</colgroup>
-																<tbody>
-																	<tr>
-																		<th/>
-																		<th>Code System</th>
-																		<th>Code</th>
-																		<th>Name</th>
-																		<th>Strength</th>
-																	</tr>
-																	<tr>
-																		<th>part 1</th>
-																		<td>SMS</td>
-																		<td>100000092074</td>
-																		<td>clotrimazole</td>
-																		<td>20 milligram 
-                                                      /
-                                                       1 gram</td>
-																	</tr>
-																	<tr>
-																		<th>part 2</th>
-																		<td>SMS</td>
-																		<td>100000092074</td>
-																		<td>clotrimazole</td>
-																		<td>500 milligram per unit</td>
-																	</tr>
-																</tbody>
-															</table>
-														</td>
-													</tr>
-													<tr>
-														<th>Brand Name</th>
-														<td>Canesten Cream</td>
-													</tr>
-													<tr>
-														<th>Dose Form</th>
-														<td>Cream + pessary</td>
-													</tr>
-													<tr>
-														<th>Route of Administration</th>
-														<td>Subcutaneous use</td>
-													</tr>
-												</table>
-											</td>
-											<td>
-												<table class="ep_table">
-													<tr>
-														<th>Duration of treatment</th>
-														<td>From 2022-07-06 Until 2022-08-06</td>
-													</tr>
-													<tr>
-														<th>Units per intake</th>
-														<td>1 unit(s)</td>
-													</tr>
-													<tr>
-														<th>Frequency of Intakes</th>
-														<td>1 Time(s) per 12 hour</td>
-													</tr>
-												</table>
-											</td>
-										</tr>
-										<tr>
-											<td>
-												<table class="ep_table">
-													<tbody>
-														<tr>
-															<th>
-                                             
-                                             
-                                             Package Identifier
-                                             </th>
-															<td>FI-100004966-18300-541276</td>
-														</tr>
-														<tr>
-															<th>Number of packages</th>
-															<td>5</td>
-														</tr>
-														<tr>
-															<th>Package Size</th>
-															<td>
-																<ul>
-																	<ul>
-																		<li>Box
-                                                      <ul>
-																				<li>1 unit(s) Cream + pessary</li>
-																			</ul>
-																		</li>
-																	</ul>
-																</ul>
-															</td>
-														</tr>
-														<tr>
-															<th>
-																<center>Part 1</center>
-															</th>
-															<td>
-																<ul>
-																	<li>1 unit(s) Tube
-                                                   <ul>
-																			<li>20 gram Cream</li>
-																		</ul>
-																	</li>
-																</ul>
-															</td>
-														</tr>
-														<tr>
-															<th>
-																<center>Part 2</center>
-															</th>
-															<td>
-																<ul>
-																	<ul>
-																		<li>6 unit(s) Pessary</li>
-																	</ul>
-																</ul>
-															</td>
-														</tr>
-													</tbody>
-												</table>
-											</td>
-										</tr>
-									</table>
-								</td>
-							</tr>
+							<tbody>
+								<tr>
+									<th> Medicinal Product Identifier </th>
+									<td>FI-100004966-18300</td>
+								</tr>
+								<tr>
+									<th>Brand Name</th>
+									<td>Canesten Cream</td>
+								</tr>
+								<tr>
+									<th>Dose Form</th>
+									<td>Cream + pessary</td>
+								</tr>
+								<tr>
+									<th>Route of Administration</th>
+									<td>Subcutaneous use</td>
+								</tr>
+							</tbody>
+						</table>
+						<table ID="ingredients_table" width="100%">
+							<tbody>
+								<tr>
+									<th>Active Ingredient</th>
+								</tr>
+								<tr>
+									<th/>
+									<th>Code System</th>
+									<th>Code</th>
+									<th>Name</th>
+									<th>Strength</th>
+								</tr>
+								<tr>
+									<th>part 1</th>
+									<td>SMS</td>
+									<td>100000092074</td>
+									<td>clotrimazole</td>
+									<td>20 milligram / 1 gram</td>
+								</tr>
+								<tr>
+									<th>part 2</th>
+									<td>SMS</td>
+									<td>100000092074</td>
+									<td>clotrimazole</td>
+									<td>500 milligram per unit</td>
+								</tr>
+							</tbody>
+						</table>
+						<table>
+							<tbody>
+								<tr>
+									<th>Duration of treatment</th>
+									<td>From 2022-07-06 Until 2022-08-06</td>
+								</tr>
+								<tr>
+									<th>Units per intake</th>
+									<td>1 unit(s)</td>
+								</tr>
+								<tr>
+									<th>Frequency of Intakes</th>
+									<td>1 Time(s) per 12 hour</td>
+								</tr>
+							</tbody>
+						</table>
+						<table>
+							<tbody>
+								<tr>
+									<th> Package Identifier </th>
+									<td>FI-100004966-18300-541276</td>
+								</tr>
+								<tr>
+									<th>Number of packages</th>
+									<td>5</td>
+								</tr>
+								<tr>
+									<th>Package Size</th>
+									<td>
+				
+												Box : 1 unit(s) Cream + pessary
+									</td>
+								</tr>
+								<tr>
+									<th>
+										Part 1
+									</th>
+									<td>
+										1 unit(s) Tube - 20 gram Cream
+									</td>
+								</tr>
+								<tr>
+									<th>
+										Part 2
+									</th>
+									<td>
+									6 unit(s) Pessary
+									</td>
+								</tr>
+							</tbody>
 						</table>
 					</text>
 					<entry typeCode="COMP">
@@ -270,44 +220,45 @@
 							<routeCode code="20066000" displayName="Subcutaneous use" codeSystem="0.4.0.127.0.16.1.1.2.1"/>
 							<consumable typeCode="CSM">
 								<manufacturedProduct classCode="MANU">
-									<templateId root="'2.16.840.1.113883.10.21.4.11'"/>
+									<templateId root="2.16.840.1.113883.10.21.4.11"/>
 									<manufacturedMaterial classCode="MMAT" determinerCode="KIND">
-										<templateId root="1.3.6.1.4.1.12559.11.10.1.3.1.3.30"/>
 										<!--Example OID for MPID for "system" : "http://ema.europa.eu/fhir/mpId", "value" : "FI-100004966-18300"-->
-										<code codeSystem="9.999.999.999" code="FI-100004966-18300"/>
+										<code codeSystem="1.1.999.991.999" code="FI-100004966-18300"/>
 										<name>Canesten® Kombi 500 mg emätinpuikko + 10 mg/g emulsiovoide</name>
 										<!-- Combined dose form -->
 										<pharm:formCode code="14001000" displayName="Cream + pessary" codeSystem="0.4.0.127.0.16.1.1.2.1">
 											<!--Example OID" for  "system" : "https://spor.ema.europa.eu/v1/lists/200000000008",            "code" : "100000173972",-->
 											<!-- ask to assign an OID for SPOR systems-->
-											<translation code="100000173972" displayName="Cream + pessary" codeSystem="9.999.200000000008"/>
+											<translation code="100000173972" displayName="Cream + pessary" codeSystem="1.1.999.200000000008"/>
 										</pharm:formCode>
 										<pharm:asContent classCode="CONT">
 											<pharm:quantity xsi:type="PQ" value="1" unit="1"/>
 											<pharm:containerPackagedProduct classCode="CONT" determinerCode="KIND">
 												<!--    "system" : "http://ema.europa.eu/example/pcid",   "value" : "FI-100004966-18300-541276" -->
 												<!-- ask to assign an OID for MPID and or local codes -->
-												<pharm:code codeSystem="9.999.999.999.1" code="FI-100004966-18300-541276"/>
+												<pharm:code codeSystem="1.991.999.999.1" code="FI-100004966-18300-541276"/>
 												<!--              "system" : "https://spor.ema.europa.eu/v1/lists/100000073346",               "code" : "100000073498", -->
 												<!-- ask to assign an OID for SPOR systems-->
 												<pharm:formCode code="30009000" displayName="Box" codeSystem="0.4.0.127.0.16.1.1.2.1">
-													<translation code="100000073498" displayName="Box" codeSystem="9.999.100000073346"/>
+													<translation code="100000073498" displayName="Box" codeSystem="1.999.100000073346"/>
 												</pharm:formCode>
 											</pharm:containerPackagedProduct>
 										</pharm:asContent>
-										<asSpecializedKind classCode="GRIC">
-											<generalizedMaterialKind classCode="MMAT">
-												<code codeSystem="2.16.840.1.113883.6.73" code="G01AF02" codeSystemName="Anatomical Therapeutic Chemical" displayName="clotrimazole"/>
-												<name/>
-											</generalizedMaterialKind>
-										</asSpecializedKind>
+										<!--
+										<pharm:asSpecializedKind classCode="GRIC">
+											<pharm:generalizedMaterialKind classCode="MMAT" determinerCode="KIND">
+												<pharm:code code="G01AF02" codeSystem="2.16.840.1.113883.6.73" codeSystemName="Anatomical Therapeutic Chemical" displayName="clotrimazole"/>
+												<pharm:name>clotrimazole</pharm:name>
+											</pharm:generalizedMaterialKind>
+										</pharm:asSpecializedKind>
+-->
 										<pharm:part classCode="PART">
 											<pharm:quantity xsi:type="PQ" value="1" unit="1"/>
 											<pharm:partProduct classCode="MMAT" determinerCode="KIND">
 												<pharm:formCode code="10502000" displayName="Cream" codeSystem="0.4.0.127.0.16.1.1.2.1">
 													<!--Example OID" for  system" : "https://spor.ema.europa.eu/v1/lists/200000000004",              "code" : "100000073712",             "display" : "Cream"-->
 													<!-- ask to assign an OID for SPOR systems  "-->
-													<translation code="100000073712" displayName="Cream" codeSystem="9.999.200000000004"/>
+													<translation code="100000073712" displayName="Cream" codeSystem="1.999.200000000004"/>
 												</pharm:formCode>
 												<pharm:asContent classCode="CONT">
 													<pharm:quantity xsi:type="PQ" value="20" unit="g"/>
@@ -317,7 +268,7 @@
 														<pharm:formCode code="30067000" displayName="Tube" codeSystem="0.4.0.127.0.16.1.1.2.1">
 															<!--Example OID" for  "system" : "https://spor.ema.europa.eu/v1/lists/100000073346",                "code" : "100000073561",            "display" : "Tube"-->
 															<!-- ask to assign an OID for SPOR systems  "-->
-															<translation code="100000073561" displayName="Tube" codeSystem="9.999.100000073346"/>
+															<translation code="100000073561" displayName="Tube" codeSystem="1.999.100000073346"/>
 														</pharm:formCode>
 													</pharm:containerPackagedProduct>
 												</pharm:asContent>
@@ -327,7 +278,7 @@
 														<denominator xsi:type="PQ" value="1" unit="g"/>
 													</pharm:quantity>
 													<pharm:ingredientSubstance classCode="MMAT" determinerCode="KIND">
-																<pharm:code code="100000092074" displayName="CLOTRIMAZOLE" codeSystem="1.3.6.1.4.1.12559.11.10.1.3.1.44.100000075825"/>
+														<pharm:code code="100000092074" displayName="CLOTRIMAZOLE" codeSystem="1.3.6.1.4.1.12559.11.10.1.3.1.44.100000075825"/>
 														<pharm:name>CLOTRIMAZOLE</pharm:name>
 													</pharm:ingredientSubstance>
 												</pharm:ingredient>
@@ -338,7 +289,7 @@
 											<pharm:partProduct classCode="MMAT" determinerCode="KIND">
 												<pharm:formCode code="10909000" displayName="Pessary" codeSystem="0.4.0.127.0.16.1.1.2.1">
 													<!--Example OID" for    "system" : "https://spor.ema.europa.eu/v1/lists/200000000004",              "code" : "100000073815",              "display" : "Pessary"-->
-													<translation code="100000073815" displayName="Pessary" codeSystem="9.999.200000000004"/>
+													<translation code="100000073815" displayName="Pessary" codeSystem="1.999.200000000004"/>
 												</pharm:formCode>
 												<pharm:ingredient classCode="ACTI">
 													<pharm:quantity>
@@ -356,19 +307,21 @@
 									</manufacturedMaterial>
 								</manufacturedProduct>
 							</consumable>
-							<substanceAdministration classCode="SBADM" moodCode="RQO">
-								<templateId root="2.16.840.1.113883.10.21.4.6"/>
-								<statusCode code="active"/>
-								<effectiveTime xsi:type="PIVL_TS" institutionSpecified="true">
-									<period value="12" unit="h"/>
-								</effectiveTime>
-								<doseQuantity xsi:type="IVL_PQ" value="1" unit="1"/>
-								<consumable>
-									<manufacturedProduct>
-										<manufacturedMaterial nullFlavor="NA"/>
-									</manufacturedProduct>
-								</consumable>
-							</substanceAdministration>
+							<entryRelationship typeCode="COMP">
+								<substanceAdministration classCode="SBADM" moodCode="RQO">
+									<templateId root="2.16.840.1.113883.10.21.4.6"/>
+									<statusCode code="active"/>
+									<effectiveTime xsi:type="PIVL_TS" institutionSpecified="true">
+										<period value="12" unit="h"/>
+									</effectiveTime>
+									<doseQuantity xsi:type="IVL_PQ" value="1" unit="1"/>
+									<consumable>
+										<manufacturedProduct>
+											<manufacturedMaterial nullFlavor="NA"/>
+										</manufacturedProduct>
+									</consumable>
+								</substanceAdministration>
+							</entryRelationship>
 							<entryRelationship typeCode="COMP">
 								<!-- component: The Dispense Request is a component of the overall order. -->
 								<supply classCode="SPLY" moodCode="RQO">
