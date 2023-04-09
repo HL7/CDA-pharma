@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-model href="pharmcda-medord.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<ClinicalDocument xmlns="urn:hl7-org:v3" xmlns:pharm="urn:hl7-org:pharm" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" classCode="DOCCLIN" moodCode="EVN" xsi:schemaLocation="urn:hl7-org:v3 ../validation/schema/CDA_Pharma.xsd">
+<ClinicalDocument xmlns="urn:hl7-org:v3" xmlns:cda="urn:hl7-org:v3" xmlns:pharm="urn:hl7-org:pharm" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" classCode="DOCCLIN" moodCode="EVN" xsi:schemaLocation="urn:hl7-org:v3 ../validation/schema/CDA_Pharma.xsd">
 	<typeId extension="POCD_HD000040" root="2.16.840.1.113883.1.3"/>
 	<id extension="3000" root="2.16.17.710.850.1000.990.1"/>
 	<code code="57833-6" codeSystem="2.16.840.1.113883.6.1" displayName="Prescription for medication"/>
@@ -111,7 +111,7 @@
 						<table>
 							<tbody>
 								<tr>
-									<th> Medicinal Product Identifier </th>
+									<th>Medicinal Product Identifier</th>
 									<td>FI-100004966-18300</td>
 								</tr>
 								<tr>
@@ -184,26 +184,15 @@
 								</tr>
 								<tr>
 									<th>Package Size</th>
-									<td>
-				
-												Box : 1 unit(s) Cream + pessary
-									</td>
+									<td>Box : 1 unit(s) Cream + pessary</td>
 								</tr>
 								<tr>
-									<th>
-										Part 1
-									</th>
-									<td>
-										1 unit(s) Tube - 20 gram Cream
-									</td>
+									<th>Part 1</th>
+									<td>1 unit(s) Tube - 20 gram Cream</td>
 								</tr>
 								<tr>
-									<th>
-										Part 2
-									</th>
-									<td>
-									6 unit(s) Pessary
-									</td>
+									<th>Part 2</th>
+									<td>6 unit(s) Pessary</td>
 								</tr>
 							</tbody>
 						</table>
@@ -244,14 +233,14 @@
 												</pharm:formCode>
 											</pharm:containerPackagedProduct>
 										</pharm:asContent>
-										<!--
+										
 										<pharm:asSpecializedKind classCode="GRIC">
 											<pharm:generalizedMaterialKind classCode="MMAT" determinerCode="KIND">
 												<pharm:code code="G01AF02" codeSystem="2.16.840.1.113883.6.73" codeSystemName="Anatomical Therapeutic Chemical" displayName="clotrimazole"/>
 												<pharm:name>clotrimazole</pharm:name>
 											</pharm:generalizedMaterialKind>
 										</pharm:asSpecializedKind>
--->
+
 										<pharm:part classCode="PART">
 											<pharm:quantity xsi:type="PQ" value="1" unit="1"/>
 											<pharm:partProduct classCode="MMAT" determinerCode="KIND">
@@ -274,8 +263,8 @@
 												</pharm:asContent>
 												<pharm:ingredient classCode="ACTI">
 													<pharm:quantity>
-														<numerator xsi:type="PQ" value="10" unit="mg"/>
-														<denominator xsi:type="PQ" value="1" unit="g"/>
+														<cda:numerator xsi:type="PQ" value="10" unit="mg"/>
+													    <cda:denominator xsi:type="PQ" value="1" unit="g"/>
 													</pharm:quantity>
 													<pharm:ingredientSubstance classCode="MMAT" determinerCode="KIND">
 														<pharm:code code="100000092074" displayName="CLOTRIMAZOLE" codeSystem="1.3.6.1.4.1.12559.11.10.1.3.1.44.100000075825"/>
@@ -293,8 +282,8 @@
 												</pharm:formCode>
 												<pharm:ingredient classCode="ACTI">
 													<pharm:quantity>
-														<numerator xsi:type="PQ" value="500" unit="mg"/>
-														<denominator xsi:type="PQ" value="1" unit="{Pessary}"/>
+													    <cda:numerator xsi:type="PQ" value="500" unit="mg"/>
+													    <cda:denominator xsi:type="PQ" value="1" unit="{Pessary}"/>
 													</pharm:quantity>
 													<pharm:ingredientSubstance classCode="MMAT" determinerCode="KIND">
 														<!--      for the time bein is used the OID assigned by EHDSI ask for official OID -->

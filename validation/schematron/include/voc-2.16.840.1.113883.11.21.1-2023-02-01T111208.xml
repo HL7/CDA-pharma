@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<valueSets xmlns="urn:hl7-org:v3" xmlns:local="http://art-decor.org/functions" xmlns:hl7="urn:hl7-org:v3" xmlns:sch="http://purl.oclc.org/dsdl/schematron">
+   <valueSet xmlns="" id="2.16.840.1.113883.11.21.1" name="MedicationTimeUnits" displayName="Medication Time Units (UCUM)" effectiveDate="2023-02-01T11:12:08" statusCode="final" versionLabel="3.0" lastModifiedDate="2023-02-01T11:13:32">
+      <desc language="en-US" lastTranslated="2023-02-01T11:12:08">Medication Time Units, expressed in UCUM</desc>
+      <sourceCodeSystem id="2.16.840.1.113883.6.8" identifierName="Unified Code for Units of Measure" canonicalUri="http://unitsofmeasure.org" canonicalUriDSTU2="http://unitsofmeasure.org" canonicalUriSTU3="http://unitsofmeasure.org" canonicalUriR4="http://unitsofmeasure.org" hl7v2table0396="UCUM"/>
+      <publishingAuthority name="HL7 International" inherited="project">
+         <addrLine>Health Level Seven International</addrLine>
+         <addrLine>3300 Washtenaw Avenue</addrLine>
+         <addrLine>Suite 227</addrLine>
+         <addrLine>Ann Arbor, MI 48104- 4261</addrLine>
+         <addrLine>USA</addrLine>
+         <addrLine>T +1 734 677 7777</addrLine>
+         <addrLine>F +1 734 677 6622</addrLine>
+         <addrLine>E info@hl7.org</addrLine>
+      </publishingAuthority>
+      <conceptList>
+         <concept code="a" codeSystem="2.16.840.1.113883.6.8" displayName="Year" level="0" type="L"/>
+         <concept code="d" codeSystem="2.16.840.1.113883.6.8" displayName="Day" level="0" type="L"/>
+         <concept code="h" codeSystem="2.16.840.1.113883.6.8" displayName="Hour" level="0" type="L"/>
+         <concept code="min" codeSystem="2.16.840.1.113883.6.8" displayName="Minute" level="0" type="L"/>
+         <concept code="mo" codeSystem="2.16.840.1.113883.6.8" displayName="Month" level="0" type="L"/>
+         <concept code="s" codeSystem="2.16.840.1.113883.6.8" displayName="Second" level="0" type="L"/>
+         <concept code="wk" codeSystem="2.16.840.1.113883.6.8" displayName="Week" level="0" type="L"/>
+      </conceptList>
+   </valueSet>
+</valueSets>

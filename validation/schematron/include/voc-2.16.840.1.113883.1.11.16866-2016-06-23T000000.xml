@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<valueSets xmlns="urn:hl7-org:v3" xmlns:local="http://art-decor.org/functions" xmlns:hl7="urn:hl7-org:v3" xmlns:sch="http://purl.oclc.org/dsdl/schematron">
+   <valueSet xmlns="" id="2.16.840.1.113883.1.11.16866" name="ActPriority" displayName="ActPriority" effectiveDate="2016-06-23T00:00:00" statusCode="final" ident="ccda-" url="http://art-decor.org/decor/services/" referencedFrom="pharmcda-">
+      <sourceCodeSystem id="2.16.840.1.113883.5.7" identifierName="Act Priority" canonicalUri="http://terminology.hl7.org/CodeSystem/v3-ActPriority" canonicalUriDSTU2="http://hl7.org/fhir/v3/ActPriority" canonicalUriSTU3="http://hl7.org/fhir/v3/ActPriority" canonicalUriR4="http://terminology.hl7.org/CodeSystem/v3-ActPriority"/>
+      <publishingAuthority name="HL7 International" inherited="project">
+         <addrLine>Health Level Seven International</addrLine>
+         <addrLine>3300 Washtenaw Avenue</addrLine>
+         <addrLine>Suite 227</addrLine>
+         <addrLine>Ann Arbor, MI 48104- 4261</addrLine>
+         <addrLine>USA</addrLine>
+         <addrLine>T +1 734 677 7777</addrLine>
+         <addrLine>F +1 734 677 6622</addrLine>
+         <addrLine>E info@hl7.org</addrLine>
+      </publishingAuthority>
+      <conceptList>
+         <concept code="A" codeSystem="2.16.840.1.113883.5.7" displayName="ASAP" level="0" type="L"/>
+         <concept code="CR" codeSystem="2.16.840.1.113883.5.7" displayName="callback results" level="0" type="L"/>
+         <concept code="CS" codeSystem="2.16.840.1.113883.5.7" displayName="callback for scheduling" level="0" type="L"/>
+         <concept code="CSP" codeSystem="2.16.840.1.113883.5.7" displayName="callback placer for scheduling" level="0" type="L"/>
+         <concept code="CSR" codeSystem="2.16.840.1.113883.5.7" displayName="contact recipient for scheduling" level="0" type="L"/>
+         <concept code="EL" codeSystem="2.16.840.1.113883.5.7" displayName="elective" level="0" type="L"/>
+         <concept code="EM" codeSystem="2.16.840.1.113883.5.7" displayName="emergency" level="0" type="L"/>
+         <concept code="P" codeSystem="2.16.840.1.113883.5.7" displayName="preop" level="0" type="L"/>
+         <concept code="PRN" codeSystem="2.16.840.1.113883.5.7" displayName="as needed" level="0" type="L"/>
+         <concept code="R" codeSystem="2.16.840.1.113883.5.7" displayName="routine" level="0" type="L"/>
+         <concept code="RR" codeSystem="2.16.840.1.113883.5.7" displayName="rush reporting" level="0" type="L"/>
+         <concept code="S" codeSystem="2.16.840.1.113883.5.7" displayName="stat" level="0" type="L"/>
+         <concept code="T" codeSystem="2.16.840.1.113883.5.7" displayName="timing critical" level="0" type="L"/>
+         <concept code="UD" codeSystem="2.16.840.1.113883.5.7" displayName="use as directed" level="0" type="L"/>
+         <concept code="UR" codeSystem="2.16.840.1.113883.5.7" displayName="urgent" level="0" type="L"/>
+      </conceptList>
+   </valueSet>
+</valueSets>

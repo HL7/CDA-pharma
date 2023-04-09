@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<valueSets xmlns="urn:hl7-org:v3" xmlns:local="http://art-decor.org/functions" xmlns:hl7="urn:hl7-org:v3" xmlns:sch="http://purl.oclc.org/dsdl/schematron">
+   <valueSet xmlns="" id="2.16.840.1.113883.1.11.10430" name="RoleClassIngredientEntity" displayName="RoleClassIngredientEntity" effectiveDate="2014-03-26T00:00:00" statusCode="final" versionLabel="DEFN=UV=VO=1360-20160323" ident="ad2bbr-" url="http://art-decor.org/decor/services/" referencedFrom="pharmcda-">
+      <desc language="en-US">
+         <p>
+            <b>History description 2014-03-26: </b>Lock all vaue sets untouched since 2014-03-26 to trackingId 2014T1_2014_03_26</p>
+         <b>description: </b>
+         <p>Relates a component (player) to a mixture (scoper). E.g., Glucose and Water are ingredients of D5W, latex may be an ingredient in a tracheal tube.</p>
+      </desc>
+      <sourceCodeSystem id="2.16.840.1.113883.5.110" identifierName="Role Class" canonicalUri="http://terminology.hl7.org/CodeSystem/v3-RoleClass" canonicalUriDSTU2="http://hl7.org/fhir/v3/RoleClass" canonicalUriSTU3="http://hl7.org/fhir/v3/RoleClass" canonicalUriR4="http://terminology.hl7.org/CodeSystem/v3-RoleClass" hl7v2table0396="ROLECLASS"/>
+      <publishingAuthority name="HL7 International" inherited="project">
+         <addrLine>Health Level Seven International</addrLine>
+         <addrLine>3300 Washtenaw Avenue</addrLine>
+         <addrLine>Suite 227</addrLine>
+         <addrLine>Ann Arbor, MI 48104- 4261</addrLine>
+         <addrLine>USA</addrLine>
+         <addrLine>T +1 734 677 7777</addrLine>
+         <addrLine>F +1 734 677 6622</addrLine>
+         <addrLine>E info@hl7.org</addrLine>
+      </publishingAuthority>
+      <conceptList>
+         <concept code="INGR" codeSystem="2.16.840.1.113883.5.110" displayName="ingredient" level="0" type="S"/>
+         <concept code="ACTI" codeSystem="2.16.840.1.113883.5.110" displayName="active ingredient" level="1" type="S"/>
+         <concept code="ACTIB" codeSystem="2.16.840.1.113883.5.110" displayName="active ingredient - basis of strength" level="2" type="L"/>
+         <concept code="ACTIM" codeSystem="2.16.840.1.113883.5.110" displayName="active ingredient - moiety is basis of strength" level="2" type="L"/>
+         <concept code="ACTIR" codeSystem="2.16.840.1.113883.5.110" displayName="active ingredient - reference substance is basis of strength" level="2" type="L"/>
+         <concept code="ADJV" codeSystem="2.16.840.1.113883.5.110" displayName="adjuvant" level="1" type="L"/>
+         <concept code="ADTV" codeSystem="2.16.840.1.113883.5.110" displayName="additive" level="1" type="L"/>
+         <concept code="BASE" codeSystem="2.16.840.1.113883.5.110" displayName="base" level="1" type="L"/>
+         <concept code="CNTM" codeSystem="2.16.840.1.113883.5.110" displayName="contaminant ingredient" level="1" type="L"/>
+         <concept code="IACT" codeSystem="2.16.840.1.113883.5.110" displayName="inactive ingredient" level="1" type="S"/>
+         <concept code="COLR" codeSystem="2.16.840.1.113883.5.110" displayName="color additive color" level="2" type="L"/>
+         <concept code="FLVR" codeSystem="2.16.840.1.113883.5.110" displayName="flavor additive flavor" level="2" type="L"/>
+         <concept code="PRSV" codeSystem="2.16.840.1.113883.5.110" displayName="preservative" level="2" type="L"/>
+         <concept code="STBL" codeSystem="2.16.840.1.113883.5.110" displayName="stabilizer" level="2" type="L"/>
+         <concept code="MECH" codeSystem="2.16.840.1.113883.5.110" displayName="mechanical ingredient" level="1" type="L"/>
+      </conceptList>
+   </valueSet>
+</valueSets>

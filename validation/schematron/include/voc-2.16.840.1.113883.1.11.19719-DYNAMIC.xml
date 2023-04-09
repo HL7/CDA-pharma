@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<valueSets xmlns="urn:hl7-org:v3" xmlns:local="http://art-decor.org/functions" xmlns:hl7="urn:hl7-org:v3" xmlns:sch="http://purl.oclc.org/dsdl/schematron">
+   <valueSet xmlns="" id="2.16.840.1.113883.1.11.19719" name="SubstanceAdminSubstitutionNotAllowedReason" displayName="SubstanceAdminSubstitutionNotAllowedReason" effectiveDate="2014-03-26T00:00:00" statusCode="final" versionLabel="DEFN=UV=VO=1360-20160323" ident="ad2bbr-" url="http://art-decor.org/decor/services/" referencedFrom="pharmcda-">
+      <desc language="en-US">
+         <p>
+            <b>History description 2014-03-26: </b>Lock all vaue sets untouched since 2014-03-26 to trackingId 2014T1_2014_03_26</p>
+         <b>description: </b>
+         <p>Reasons why substitution of a substance administration request is not permitted.</p>
+      </desc>
+      <sourceCodeSystem id="2.16.840.1.113883.5.8" identifierName="Act Reason" canonicalUri="http://terminology.hl7.org/CodeSystem/v3-ActReason" canonicalUriDSTU2="http://hl7.org/fhir/v3/ActReason" canonicalUriSTU3="http://hl7.org/fhir/v3/ActReason" canonicalUriR4="http://terminology.hl7.org/CodeSystem/v3-ActReason"/>
+      <publishingAuthority name="HL7 International" inherited="project">
+         <addrLine>Health Level Seven International</addrLine>
+         <addrLine>3300 Washtenaw Avenue</addrLine>
+         <addrLine>Suite 227</addrLine>
+         <addrLine>Ann Arbor, MI 48104- 4261</addrLine>
+         <addrLine>USA</addrLine>
+         <addrLine>T +1 734 677 7777</addrLine>
+         <addrLine>F +1 734 677 6622</addrLine>
+         <addrLine>E info@hl7.org</addrLine>
+      </publishingAuthority>
+      <conceptList>
+         <concept code="_SubstanceAdminSubstitutionNotAllowedReason" codeSystem="2.16.840.1.113883.5.8" displayName="SubstanceAdminSubstitutionNotAllowedReason" level="0" type="A"/>
+         <concept code="PAT" codeSystem="2.16.840.1.113883.5.8" displayName="Patient request" level="1" type="L"/>
+         <concept code="ALGINT" codeSystem="2.16.840.1.113883.5.8" displayName="allergy intolerance" level="1" type="L"/>
+         <concept code="COMPCON" codeSystem="2.16.840.1.113883.5.8" displayName="compliance concern" level="1" type="L"/>
+         <concept code="THERCHAR" codeSystem="2.16.840.1.113883.5.8" displayName="therapeutic characteristics" level="1" type="L"/>
+         <concept code="TRIAL" codeSystem="2.16.840.1.113883.5.8" displayName="clinical trial drug" level="1" type="L"/>
+         <concept code="PAT" codeSystem="2.16.840.1.113883.5.8" displayName="Patient request" level="0" type="L"/>
+      </conceptList>
+   </valueSet>
+</valueSets>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<valueSets xmlns="urn:hl7-org:v3" xmlns:local="http://art-decor.org/functions" xmlns:hl7="urn:hl7-org:v3" xmlns:sch="http://purl.oclc.org/dsdl/schematron">
+   <valueSet xmlns="" id="2.16.840.1.113883.11.21.4" name="MoodCodeEvnIntRqo" displayName="Mood Code Evn Int Rqo" statusCode="draft" effectiveDate="2018-03-21T00:00:00">
+      <sourceCodeSystem id="2.16.840.1.113883.5.1001" identifierName="Act Mood" canonicalUri="http://terminology.hl7.org/CodeSystem/v3-ActMood" canonicalUriDSTU2="http://hl7.org/fhir/v3/ActMood" canonicalUriSTU3="http://hl7.org/fhir/v3/ActMood" canonicalUriR4="http://terminology.hl7.org/CodeSystem/v3-ActMood"/>
+      <publishingAuthority name="HL7 International" inherited="project">
+         <addrLine>Health Level Seven International</addrLine>
+         <addrLine>3300 Washtenaw Avenue</addrLine>
+         <addrLine>Suite 227</addrLine>
+         <addrLine>Ann Arbor, MI 48104- 4261</addrLine>
+         <addrLine>USA</addrLine>
+         <addrLine>T +1 734 677 7777</addrLine>
+         <addrLine>F +1 734 677 6622</addrLine>
+         <addrLine>E info@hl7.org</addrLine>
+      </publishingAuthority>
+      <conceptList>
+         <concept code="EVN" codeSystem="2.16.840.1.113883.5.1001" displayName="Event" level="0" type="L"/>
+         <concept code="INT" codeSystem="2.16.840.1.113883.5.1001" displayName="Intent" level="0" type="L"/>
+         <concept code="RQO" codeSystem="2.16.840.1.113883.5.1001" displayName="Request" level="0" type="L"/>
+      </conceptList>
+   </valueSet>
+</valueSets>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<valueSets xmlns="urn:hl7-org:v3" xmlns:local="http://art-decor.org/functions" xmlns:hl7="urn:hl7-org:v3" xmlns:sch="http://purl.oclc.org/dsdl/schematron">
+   <valueSet xmlns="" id="2.16.840.1.113883.11.21.2" name="ActStatusCodeActiveCompletedAbortedSuspended" displayName="ActStatusActiveCompletedAbortedSuspended" effectiveDate="2017-03-06T00:00:00" statusCode="draft">
+      <sourceCodeSystem id="2.16.840.1.113883.5.14" identifierName="ActStatus" canonicalUri="http://terminology.hl7.org/CodeSystem/v3-ActStatus" canonicalUriDSTU2="http://hl7.org/fhir/v3/ActStatus" canonicalUriSTU3="http://hl7.org/fhir/v3/ActStatus" canonicalUriR4="http://terminology.hl7.org/CodeSystem/v3-ActStatus"/>
+      <publishingAuthority name="HL7 International" inherited="project">
+         <addrLine>Health Level Seven International</addrLine>
+         <addrLine>3300 Washtenaw Avenue</addrLine>
+         <addrLine>Suite 227</addrLine>
+         <addrLine>Ann Arbor, MI 48104- 4261</addrLine>
+         <addrLine>USA</addrLine>
+         <addrLine>T +1 734 677 7777</addrLine>
+         <addrLine>F +1 734 677 6622</addrLine>
+         <addrLine>E info@hl7.org</addrLine>
+      </publishingAuthority>
+      <conceptList>
+         <concept code="completed" codeSystem="2.16.840.1.113883.5.14" displayName="Completed" level="0" type="L"/>
+         <concept code="aborted" codeSystem="2.16.840.1.113883.5.14" displayName="Aborted" level="0" type="L"/>
+         <concept code="active" codeSystem="2.16.840.1.113883.5.14" displayName="Active" level="0" type="L"/>
+         <concept code="suspended" codeSystem="2.16.840.1.113883.5.14" displayName="Suspended" level="0" type="L"/>
+      </conceptList>
+   </valueSet>
+</valueSets>

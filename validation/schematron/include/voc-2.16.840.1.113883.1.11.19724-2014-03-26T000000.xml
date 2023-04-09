@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<valueSets xmlns="urn:hl7-org:v3" xmlns:local="http://art-decor.org/functions" xmlns:hl7="urn:hl7-org:v3" xmlns:sch="http://purl.oclc.org/dsdl/schematron">
+   <valueSet xmlns="" id="2.16.840.1.113883.1.11.19724" name="HumanSubstanceAdministrationSite" displayName="HumanSubstanceAdministrationSite" effectiveDate="2014-03-26T00:00:00" statusCode="final" versionLabel="DEFN=UV=VO=1360-20160323" ident="ad2bbr-" url="http://art-decor.org/decor/services/" referencedFrom="pharmcda-">
+      <desc language="en-US">
+         <p>
+            <b>History description 2014-03-26: </b>Lock all vaue sets untouched since 2014-03-26 to trackingId 2014T1_2014_03_26</p>
+         <b>description: </b>
+         <p>The set of body locations to or through which a drug product may be administered.</p>
+      </desc>
+      <sourceCodeSystem id="2.16.840.1.113883.5.1052" identifierName="Act Site" canonicalUri="http://terminology.hl7.org/CodeSystem/v3-ActSite" canonicalUriDSTU2="http://hl7.org/fhir/v3/ActSite" canonicalUriSTU3="http://hl7.org/fhir/v3/ActSite" canonicalUriR4="http://terminology.hl7.org/CodeSystem/v3-ActSite"/>
+      <publishingAuthority name="HL7 International" inherited="project">
+         <addrLine>Health Level Seven International</addrLine>
+         <addrLine>3300 Washtenaw Avenue</addrLine>
+         <addrLine>Suite 227</addrLine>
+         <addrLine>Ann Arbor, MI 48104- 4261</addrLine>
+         <addrLine>USA</addrLine>
+         <addrLine>T +1 734 677 7777</addrLine>
+         <addrLine>F +1 734 677 6622</addrLine>
+         <addrLine>E info@hl7.org</addrLine>
+      </publishingAuthority>
+      <conceptList>
+         <concept code="_HumanSubstanceAdministrationSite" codeSystem="2.16.840.1.113883.5.1052" displayName="HumanSubstanceAdministrationSite" level="0" type="A"/>
+         <concept code="BE" codeSystem="2.16.840.1.113883.5.1052" displayName="bilateral ears" level="1" type="L"/>
+         <concept code="BN" codeSystem="2.16.840.1.113883.5.1052" displayName="bilateral nares" level="1" type="L"/>
+         <concept code="BU" codeSystem="2.16.840.1.113883.5.1052" displayName="buttock" level="1" type="L"/>
+         <concept code="LA" codeSystem="2.16.840.1.113883.5.1052" displayName="left arm" level="1" type="L"/>
+         <concept code="LAC" codeSystem="2.16.840.1.113883.5.1052" displayName="left anterior chest" level="1" type="L"/>
+         <concept code="LACF" codeSystem="2.16.840.1.113883.5.1052" displayName="left antecubital fossa" level="1" type="L"/>
+         <concept code="LD" codeSystem="2.16.840.1.113883.5.1052" displayName="left deltoid" level="1" type="L"/>
+         <concept code="LE" codeSystem="2.16.840.1.113883.5.1052" displayName="left ear" level="1" type="L"/>
+         <concept code="LEJ" codeSystem="2.16.840.1.113883.5.1052" displayName="left external jugular" level="1" type="L"/>
+         <concept code="LF" codeSystem="2.16.840.1.113883.5.1052" displayName="left foot" level="1" type="L"/>
+         <concept code="LG" codeSystem="2.16.840.1.113883.5.1052" displayName="left gluteus medius" level="1" type="L"/>
+         <concept code="LH" codeSystem="2.16.840.1.113883.5.1052" displayName="left hand" level="1" type="L"/>
+         <concept code="LIJ" codeSystem="2.16.840.1.113883.5.1052" displayName="left internal jugular" level="1" type="L"/>
+         <concept code="LLAQ" codeSystem="2.16.840.1.113883.5.1052" displayName="left lower abd quadrant" level="1" type="L"/>
+         <concept code="LLFA" codeSystem="2.16.840.1.113883.5.1052" displayName="left lower forearm" level="1" type="L"/>
+         <concept code="LMFA" codeSystem="2.16.840.1.113883.5.1052" displayName="left mid forearm" level="1" type="L"/>
+         <concept code="LN" codeSystem="2.16.840.1.113883.5.1052" displayName="left naris" level="1" type="L"/>
+         <concept code="LPC" codeSystem="2.16.840.1.113883.5.1052" displayName="left posterior chest" level="1" type="L"/>
+         <concept code="LSC" codeSystem="2.16.840.1.113883.5.1052" displayName="left subclavian" level="1" type="L"/>
+         <concept code="LT" codeSystem="2.16.840.1.113883.5.1052" displayName="left thigh" level="1" type="L"/>
+         <concept code="LUA" codeSystem="2.16.840.1.113883.5.1052" displayName="left upper arm" level="1" type="L"/>
+         <concept code="LUAQ" codeSystem="2.16.840.1.113883.5.1052" displayName="left upper abd quadrant" level="1" type="L"/>
+         <concept code="LUFA" codeSystem="2.16.840.1.113883.5.1052" displayName="left upper forearm" level="1" type="L"/>
+         <concept code="LVG" codeSystem="2.16.840.1.113883.5.1052" displayName="left ventragluteal" level="1" type="L"/>
+         <concept code="LVL" codeSystem="2.16.840.1.113883.5.1052" displayName="left vastus lateralis" level="1" type="L"/>
+         <concept code="OD" codeSystem="2.16.840.1.113883.5.1052" displayName="right eye" level="1" type="L"/>
+         <concept code="OS" codeSystem="2.16.840.1.113883.5.1052" displayName="left eye" level="1" type="L"/>
+         <concept code="OU" codeSystem="2.16.840.1.113883.5.1052" displayName="bilateral eyes" level="1" type="L"/>
+         <concept code="PA" codeSystem="2.16.840.1.113883.5.1052" displayName="perianal" level="1" type="L"/>
+         <concept code="PERIN" codeSystem="2.16.840.1.113883.5.1052" displayName="perineal" level="1" type="L"/>
+         <concept code="RA" codeSystem="2.16.840.1.113883.5.1052" displayName="right arm" level="1" type="L"/>
+         <concept code="RAC" codeSystem="2.16.840.1.113883.5.1052" displayName="right anterior chest" level="1" type="L"/>
+         <concept code="RACF" codeSystem="2.16.840.1.113883.5.1052" displayName="right antecubital fossa" level="1" type="L"/>
+         <concept code="RD" codeSystem="2.16.840.1.113883.5.1052" displayName="right deltoid" level="1" type="L"/>
+         <concept code="RE" codeSystem="2.16.840.1.113883.5.1052" displayName="right ear" level="1" type="L"/>
+         <concept code="REJ" codeSystem="2.16.840.1.113883.5.1052" displayName="right external jugular" level="1" type="L"/>
+         <concept code="RF" codeSystem="2.16.840.1.113883.5.1052" displayName="right foot" level="1" type="L"/>
+         <concept code="RG" codeSystem="2.16.840.1.113883.5.1052" displayName="right gluteus medius" level="1" type="L"/>
+         <concept code="RH" codeSystem="2.16.840.1.113883.5.1052" displayName="right hand" level="1" type="L"/>
+         <concept code="RIJ" codeSystem="2.16.840.1.113883.5.1052" displayName="right internal jugular" level="1" type="L"/>
+         <concept code="RLAQ" codeSystem="2.16.840.1.113883.5.1052" displayName="right lower abd quadrant" level="1" type="L"/>
+         <concept code="RLFA" codeSystem="2.16.840.1.113883.5.1052" displayName="right lower forearm" level="1" type="L"/>
+         <concept code="RMFA" codeSystem="2.16.840.1.113883.5.1052" displayName="right mid forearm" level="1" type="L"/>
+         <concept code="RN" codeSystem="2.16.840.1.113883.5.1052" displayName="right naris" level="1" type="L"/>
+         <concept code="RPC" codeSystem="2.16.840.1.113883.5.1052" displayName="right posterior chest" level="1" type="L"/>
+         <concept code="RSC" codeSystem="2.16.840.1.113883.5.1052" displayName="right subclavian" level="1" type="L"/>
+         <concept code="RT" codeSystem="2.16.840.1.113883.5.1052" displayName="right thigh" level="1" type="L"/>
+         <concept code="RUA" codeSystem="2.16.840.1.113883.5.1052" displayName="right upper arm" level="1" type="L"/>
+         <concept code="RUAQ" codeSystem="2.16.840.1.113883.5.1052" displayName="right upper abd quadrant" level="1" type="L"/>
+         <concept code="RUFA" codeSystem="2.16.840.1.113883.5.1052" displayName="right upper forearm" level="1" type="L"/>
+         <concept code="RVG" codeSystem="2.16.840.1.113883.5.1052" displayName="right ventragluteal" level="1" type="L"/>
+         <concept code="RVL" codeSystem="2.16.840.1.113883.5.1052" displayName="right vastus lateralis" level="1" type="L"/>
+      </conceptList>
+   </valueSet>
+</valueSets>
