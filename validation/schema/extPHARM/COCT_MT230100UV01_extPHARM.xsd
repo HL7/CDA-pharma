@@ -37,6 +37,7 @@ History:
 2018.06.29 Giorgio Cangioli, first version
 2023.01.30 Giorgio Cangioli, asContent and part quantity: RTO demoted to PQ as for the Pharmacy Template
 2023.02.03 Giorgio Cangioli, changes applied per  https://jira.hl7.org/browse/CDA-20668
+2023.04.11 Giorgio Cangioli, nested asContent quantity: RTO demoted to PQ as for the Pharmacy Template
 
 *******************************************************************************
 -->
@@ -156,7 +157,7 @@ StaticMifToXsd.xsl version 2.0</xs:documentation>
 	<xs:complexType name="COCT_MT230100UV01.Content1">
 		<xs:sequence>
 			<xs:group ref="hl7v3:InfrastructureRootElements"/>
-			<xs:element name="quantity" type="hl7v3:RTO" minOccurs="0" maxOccurs="1"/>
+			<xs:element name="quantity" type="hl7v3:PQ" minOccurs="0" maxOccurs="1"/>
 			<xs:element name="containerPackagedProduct" type="pharm:COCT_MT230100UV01.PackagedProduct" minOccurs="1" maxOccurs="1"/>
 		</xs:sequence>
 		<xs:attributeGroup ref="hl7v3:InfrastructureRootAttributes"/>
@@ -315,7 +316,6 @@ StaticMifToXsd.xsl version 2.0</xs:documentation>
 	<xs:complexType name="COCT_MT230100UV01.Product">
 		<xs:sequence>
 			<xs:group ref="hl7v3:InfrastructureRootElements"/>
-			
 			<!-- added per https://jira.hl7.org/browse/CDA-20668 begin -->
 			<xs:element name="code" type="hl7v3:CE" minOccurs="0"/>
 			<xs:element name="name" type="hl7v3:EN" minOccurs="0"/>
@@ -323,7 +323,6 @@ StaticMifToXsd.xsl version 2.0</xs:documentation>
 			<xs:element name="formCode" type="hl7v3:CE" minOccurs="0" maxOccurs="1"/>
 			<xs:element name="expirationTime" type="hl7v3:IVL_TS" minOccurs="0"/>
 			<!-- added per https://jira.hl7.org/browse/CDA-20668 end -->
-			
 			<xs:element name="asContent" type="pharm:COCT_MT230100UV01.Content" nillable="true" minOccurs="0" maxOccurs="unbounded"/>
 			<xs:element name="asSpecializedKind" type="pharm:COCT_MT230100UV01.SpecializedKind" nillable="true" minOccurs="0" maxOccurs="unbounded"/>
 			<xs:element name="part" type="pharm:COCT_MT230100UV01.Part" nillable="true" minOccurs="0" maxOccurs="unbounded"/>
